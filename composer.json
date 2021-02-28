@@ -1,0 +1,14 @@
+{
+    "name": "root/js-decrypt",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "framework/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    }
+}
